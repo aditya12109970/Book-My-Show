@@ -71,7 +71,7 @@ const HeroCarousel = () => {
           {images.map((images, index) => (
             <div className="w-full h-56 md:h-80 py-3" key={index}>
               <img
-                src={`https://image.tmdb.org/t/p/original${images.backdrop_path}`}
+                src={`https://th.bing.com/th/id/R.ea133ec177e54e825066c9bf9ffc472f?rik=sP54vdzRbFdPOA&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2f4k-dragon-ball-super-h5.jpg&ehk=B84wNXlCeH1FSJPMdYGAryjxx6dLWVLwt4nLrT9qoXA%3d&risl=&pid=ImgRaw&r=0`}
                 alt="Hero Banner"
                 className="w-full h-full rounded-md object-cover"
               />
