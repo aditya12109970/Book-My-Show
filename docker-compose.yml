@@ -6,4 +6,4 @@ services:
     ports:
       - "3000:80"
     volumes:
-      - ./your-react-app:/app
+      - ./build:/app
