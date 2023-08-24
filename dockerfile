@@ -4,7 +4,6 @@ FROM node:alpine3.18 as nodework
 WORKDIR /book-my-show
 COPY package.json .
 COPY . .
-RUN npm run build
 
 
 # nginx block
